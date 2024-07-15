@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background: linear-gradient(225deg, #004f8d, #51a6b2);
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.box {
+  background-color: white;
+  width: 30rem;
+  height: 47rem;
+  margin: auto;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 20px 10px #054d73;
+  
+}
+.bg-blue {
+  background: linear-gradient(179deg, #084a68, #10d7d7);
+  height: 12rem;
+  width: 30rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.logo {
+  height: 10rem;
+  border-radius: 7rem;
+  display: block;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  top: -8rem;
+  filter: brightness(1.25);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -7rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.title i {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    color: #0866ff;
+    margin-top: 0.5rem;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -6.5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+/* social icons  */
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: -5rem;
+  width: 15rem;
+  left: 7rem;
+}
+.icons {
+  width: 2rem;
+  cursor: pointer;
+}
+#custom-btns {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: -3.85rem;
+  width: 18rem;
+  left: 5.5rem;
+}
+.btn {
+  width: 5rem;
+  padding: 0.55rem;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  background: black;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+
+.separator {
+  border: 1px solid #343131;
+  width: 21rem;
+  margin: auto;
+  position: relative;
+  top: -2.5rem;
+}
+
+/* html task  */
+.task {
+  display: flex;
+  width: 30rem;
+  position: relative;
+  top: -2rem;
+  left: 1rem;
+}
+.html {
+  padding: 0.5rem;
+  width: 16rem;
+}
+.css {
+  padding: 0.5rem;
+  width: 16rem;
+}
+.task-title {
+  display: flex;
+}
+.task-title p {
+  font-size: 1.1rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.task-title i {
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: #0866ff;
+}
+.task-list {
+  padding: 1rem;
+}
+.task-link a {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  font-weight: 700;
+}
+.like-comm-follow {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 600;
+  width: 18rem;
+  margin: auto;
+  position: relative;
+  top: -1rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+}
